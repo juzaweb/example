@@ -2,9 +2,9 @@
 
 namespace Juzaweb\Example\Http\Controllers;
 
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Juzaweb\CMS\Http\Controllers\FrontendController;
 
-class ExampleController extends BackendController
+class ExampleController extends FrontendController
 {
     public function index()
     {
