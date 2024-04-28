@@ -6,5 +6,8 @@ use Juzaweb\CMS\Http\Controllers\BackendController;
 
 class ExampleController extends BackendController
 {
-    //
+    public function index()
+    {
+        return view('exam::index');
+    }
 }

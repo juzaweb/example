@@ -3,17 +3,14 @@
     "type": "juzaweb-plugin",
     "description": "This is Example plugin for Juzaweb CMS",
     "extra": {
-        "laravel": {
-            "providers": [
-                "Juzaweb\\Example\\Providers\\ExampleServiceProvider"
-            ],
-            "aliases": {}
-        },
         "juzaweb": {
             "name": "Example Plugin",
             "domain": "exam",
             "cms_min": "3.2",
-            "version": "1.0"
+            "version": "1.0",
+            "providers": [
+                "Juzaweb\\Example\\Providers\\ExampleServiceProvider"
+            ]
         }
     },
     "autoload": {

@@ -11,4 +11,6 @@
 |
 */
 
+use Juzaweb\Example\Http\Controllers\ExampleController;
 
+Route::get('/example', [ExampleController::class, 'index']);
