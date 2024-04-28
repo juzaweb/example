@@ -16,7 +16,7 @@ class IndexTest extends TestCase
 {
     public function testIndex()
     {
-        $response = $this->get('/admin-cp/example');
+        $response = $this->get('/example');
 
         $response->assertStatus(200);
     }

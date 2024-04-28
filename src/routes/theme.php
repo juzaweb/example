@@ -10,3 +10,7 @@
 | contains the "admin" middleware group. Now create something great!
 |
 */
+
+use Juzaweb\Example\Http\Controllers\ExampleController;
+
+Route::get('/example', [ExampleController::class, 'index']);
